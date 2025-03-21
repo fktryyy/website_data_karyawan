@@ -27,10 +27,11 @@
 
         <div class="mb-4">
             <label class="block">Bank</label>
-            <select name="bank" class="w-full border p-2 rounded">
-                <option value="1">BCA</option>
+            <select name="bank_id" class="w-full border p-2 rounded">
+                <option value="1">BNI</option>
                 <option value="2">Mandiri</option>
                 <option value="3">BRI</option>
+                <option value="3">BCA</option>
             </select>
         </div>
 

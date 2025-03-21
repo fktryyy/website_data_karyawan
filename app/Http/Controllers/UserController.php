@@ -9,7 +9,7 @@ class UserController extends Controller
 {
     public function getKaryawan()
 {
-    $response = Http::get('http://127.0.0.1:8001/karyawan');
+    $response = Http::get('http://127.0.0.1:8001/api/karyawan');
 
     if ($response->successful()) {
         
